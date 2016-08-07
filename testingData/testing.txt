@@ -1,0 +1,13 @@
+%Local Testing:
+
+cat input/access_log | ./map.py | ./reducer.py
+
+
+%combine results of reducers - can be tested with the amazon output
+
+
+
+
+
+./combiner.py
+
